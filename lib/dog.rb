@@ -11,3 +11,9 @@ class Dog
     end
         
 end
+#creating a new object instantiated with name and breed
+capuchino = Dog.new("chihauhau")
+#calling our new name 
+puts capuchino.name
+#calling our new breed
+puts capuchino.breed
