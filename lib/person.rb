@@ -3,7 +3,7 @@ class Person
 
     #created an instance macro variable 
 
-    attr_reader: name
+    attr_reader :name
 
     #created our initialization method passed variable name 
     def initialize(name)
@@ -12,3 +12,8 @@ class Person
 
     
 end
+
+#creating a new object instantiated with gender Male 
+juma = Person.new("Male")
+#calling our new instance 
+puts juma.name
